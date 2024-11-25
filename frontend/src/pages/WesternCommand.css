@@ -1,0 +1,76 @@
+.western-command {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 180px;
+
+}
+
+p {
+    text-align: left;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    width: 150px;
+    margin-right: 50px;
+}
+
+.commander-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.commander-photo img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.commander-info {
+    flex: 1;
+    text-align: left;
+}
+
+.history-section {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.history-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.gallery-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

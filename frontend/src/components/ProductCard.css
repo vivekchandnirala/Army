@@ -1,0 +1,43 @@
+.product-card{
+    border: 2px solid black;
+    padding: 16px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.2s ease-in;
+}
+.product-image:hover{
+    transform: scale(1.05);
+}
+
+.price {
+    padding-top: 5px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #555;
+    text-align: center;
+}
+.Butt{
+    width: 100px;
+    height: 60px;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.42s ease-in;
+    opacity: 0.5;
+}
+.Butt:hover{
+    background-color: orange;
+    transform: scale(1.2);
+    opacity: 1;
+}

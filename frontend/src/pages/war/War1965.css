@@ -1,0 +1,126 @@
+.war-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+/* Intro Section */
+.war-intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    border-bottom: 2px solid #ddd;
+}
+
+.war-intro h1 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.war-intro p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.intro-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Background Section */
+.war-background {
+    padding: 40px 20px;
+}
+
+.war-background h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.war-background p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.background-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    float: right;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeline Section */
+.war-timeline {
+    padding: 40px 20px;
+}
+
+.war-timeline h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.timeline-event {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.timeline-event.reverse {
+    flex-direction: row-reverse;
+}
+
+.timeline-image {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-content {
+    max-width: 60%;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #4a90e2;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.event-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.event-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Conclusion Section */
+.war-conclusion {
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+}
+
+.war-conclusion h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.war-conclusion p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}

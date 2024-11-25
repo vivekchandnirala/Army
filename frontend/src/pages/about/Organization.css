@@ -1,0 +1,47 @@
+.organization-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.organization-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.organization-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.organization-image {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.organization-details {
+    width: 50%;
+}
+
+.organization-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.organization-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.organization-list li {
+    margin-bottom: 10px;
+}
+
+.organization-list strong {
+    font-weight: bold;
+    color: #000000;
+}

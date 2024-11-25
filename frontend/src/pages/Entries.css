@@ -1,0 +1,35 @@
+.entries-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.entries-container h1,
+.entries-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.entries-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.entries-table th,
+.entries-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.entries-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.section-header {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    text-align: left;
+    padding: 10px;
+}

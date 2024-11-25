@@ -1,0 +1,141 @@
+/* src/pages/WelcomePage.css */
+
+/* Background animation resembling a waving flag */
+@keyframes flagAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Main container styling */
+  .welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(-45deg, #FF9933, #FFFFFF, #138808); /* Tricolor theme */
+    background-size: 400% 400%;
+    animation: flagAnimation 8s linear infinite;
+  }
+  
+  /* Form styling */
+  .welcome-form {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFD700; /* Golden border for a regal touch */
+  }
+  
+  /* Heading */
+  .welcome-form h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FFD700; /* Golden color */
+    text-shadow: 0 0 10px #FFD700;
+  }
+  
+  /* Welcome message */
+  .welcome-form p {
+    margin-bottom: 20px;
+    color: #ddd;
+    font-size: 1rem;
+  }
+  
+  /* Input fields */
+  .welcome-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .welcome-form label {
+    font-size: 1rem;
+    color: #FFD700; /* Golden labels */
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .welcome-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .welcome-form input:focus {
+    border-color: #FF9933; /* Orange focus color */
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 153, 51, 0.5);
+  }
+  
+  /* Caption display */
+  .generated-caption {
+    margin-top: 10px;
+    color: #FFD700;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  /* Button styling */
+  .welcome-form .welcome-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    background: linear-gradient(90deg, #FFD700, #FF9933);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 153, 51, 0.4);
+  }
+  
+  .welcome-form .welcome-button:hover {
+    background: linear-gradient(90deg, #FF9933, #FFD700);
+    box-shadow: 0 8px 20px rgba(255, 153, 51, 0.6);
+    transform: scale(1.05);
+  }
+  
+  /* Animation for fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .welcome-form h1,
+  .welcome-form p,
+  .welcome-form input,
+  .welcome-form .welcome-button {
+    animation: fadeIn 1s ease;
+  }
+  
+  .welcome-form input:nth-of-type(1) {
+    animation-delay: 0.3s;
+  }
+  
+  .welcome-form input:nth-of-type(2) {
+    animation-delay: 0.5s;
+  }
+  
+  .welcome-form input:nth-of-type(3) {
+    animation-delay: 0.7s;
+  }
+  
+  .welcome-form .welcome-button {
+    animation-delay: 1s;
+  }
+  

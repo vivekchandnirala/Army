@@ -1,0 +1,64 @@
+/* Container for the entire section */
+.command-container {
+    /* text-align: center; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the heading */
+.command-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    /* Space between heading and circles */
+}
+
+/* Container for the circles and labels */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* Styling for the circles */
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ADD8E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.circle img {
+    width: 100px;
+    height: auto;
+}
+
+/* Hover effect for circles */
+.circle:hover {
+    transform: scale(1.1);
+}
+
+/* Styling for the labels */
+.label {
+    text-align: center;
+    margin-top: 10px;
+    color: #000;
+}
+
+/* Media query for responsiveness on mobile devices */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .circle {
+        margin-bottom: 20px;
+    }
+}

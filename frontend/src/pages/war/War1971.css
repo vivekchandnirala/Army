@@ -1,0 +1,76 @@
+/* src/pages/war/War1971.css */
+
+.war-page {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.war-section {
+    margin: 40px 0;
+}
+
+.war-section h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.section-image {
+    flex: 1;
+    width: 10%;
+    height: auto;
+}
+
+.content-wrapper p {
+    flex: 2;
+    line-height: 1.6;
+    color: #555;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.timeline {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.timeline-image {
+    width: 30%;
+    height: auto;
+}
+
+.timeline ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #555;
+}

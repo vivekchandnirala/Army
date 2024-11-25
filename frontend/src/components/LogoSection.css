@@ -1,0 +1,29 @@
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #f3f4f6;
+    /* Light background color */
+    border-bottom: 1px solid #ddd;
+}
+
+.left-logo img {
+    max-height: 80px;
+    width: auto;
+}
+
+.right-logos {
+    display: flex;
+    gap: 15px;
+}
+
+.branch-logo {
+    max-height: 60px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.branch-logo:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,52 @@
+/* src/components/Header.css */
+
+.header {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    /* Set a fixed height for the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 20px; */
+    background-color: #004080;
+    /* Background color */
+    color: #fff;
+    z-index: 1000;
+    /* Ensure it stays on top */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.font-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.font-button {
+    background-color: #005bb5;
+    /* Slightly lighter blue */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.font-button:hover {
+    background-color: #004494;
+}
